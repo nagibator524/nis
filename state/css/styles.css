@@ -24,7 +24,8 @@ button {
     max-width: 100%;
     display: none;
 }
-h {
+h2
+{
     background-color: #DCDCDC;
     border-radius: 10px; /* Устанавливаем радиус закругления */
 }
