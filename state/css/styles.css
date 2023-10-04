@@ -42,7 +42,7 @@ h2
 
    }
 }
-@media (max-width: 768px) {
+@media (min-width: 401px) and (max-width: 768px) {
     button {
         font-size: 12px;
     }
