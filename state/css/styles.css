@@ -41,6 +41,9 @@ h2
         border-radius: 10px;
 
    }
+    img {
+        margin-left: 8rem}
+    }
 }
 @media (min-width: 401px) and (max-width: 768px) {
     button {
@@ -52,8 +55,12 @@ h2
         outline: 1px solid #000;
         border: 3px solid red;
         border-radius: 10px;
+        
 
    }
+    img {
+        margin-left: 10rem}
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     button {
