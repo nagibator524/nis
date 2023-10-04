@@ -28,19 +28,19 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     floor1Button.addEventListener("click", function () {
-        floorImage.src = "state/media/floor1.svg";
+        floorImage.src = "media/floor1.svg";
         floorImage.style.display = "block";
         document.getElementById("p1").innerHTML = "1 Этаж";
     });
 
     floor2Button.addEventListener("click", function () {
-        floorImage.src = "state/media/floor2.svg";
+        floorImage.src = "media/floor2.svg";
         floorImage.style.display = "block";
         document.getElementById("p1").innerHTML = "2 Этаж";
     });
 
     floor3Button.addEventListener("click", function () {
-        floorImage.src = "state/media/floor3.svg";
+        floorImage.src = "media/floor3.svg";
         floorImage.style.display = "block";
         document.getElementById("p1").innerHTML = "3 Этаж";
     });
