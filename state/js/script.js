@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     floor1Button.addEventListener("click", function () {
-        floorImage.src = "state/media/loor1.svg";
+        floorImage.src = "state/media/floor1.svg";
         floorImage.style.display = "block";
         document.getElementById("p1").innerHTML = "1 Этаж";
     });
