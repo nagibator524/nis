@@ -29,7 +29,19 @@ h2
     background-color: #DCDCDC;
     border-radius: 10px; /* Устанавливаем радиус закругления */
 }
+@media (max-width: 400px) {
+    button {
+        font-size: 10px;
+    }
+    div {
+        width: 17rem;	height: 33rem;
+        background: white;
+        outline: 1px solid #000;
+        border: 3px solid red;
+        border-radius: 10px;
 
+   }
+}
 @media (max-width: 768px) {
     button {
         font-size: 12px;
