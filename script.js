@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let imageSize, fontSize, buttonPadding;
         if (windowWidth < 768) {
-            imageSize = "120%";
+            imageSize = "200%";
             fontSize = "14px";
             buttonPadding = "10px 20px";
         } else if (windowWidth >= 768 && windowWidth <= 1024) {
