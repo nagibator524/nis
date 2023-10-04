@@ -35,27 +35,13 @@ h2
         font-size: 12px;
     }
     div {
-        width: 30rem;	height: 40rem;
+        width: 25rem;	height: 40rem;
         background: white;
         outline: 1px solid #000;
         border: 3px solid red;
         border-radius: 10px;
 
    }
-}
-@media (min-width: 400px) {
-    button {
-        font-size: 10px;
-    }
-    div {
-        width: 30rem;	height: 34rem;
-        background: #D3D3D3	;
-        outline: 1px solid #000;
-        border: 3px solid #000;
-        border-radius: 10px;
-   }
-   img {
-   margin-left: 8rem}
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     button {
