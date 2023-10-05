@@ -35,7 +35,7 @@ h2
     }
     div {
         width: 21rem;	height: 33rem;
-        background: white;
+        background: #D3D3D3;
         outline: 1px solid #000;
         border: 3px solid black;
         border-radius: 10px;
@@ -51,7 +51,7 @@ h2
     }
     div {
         width: 25rem;	height: 40rem;
-        background: white;
+        background: #D3D3D3;
         outline: 1px solid #000;
         border: 3px solid black;
         border-radius: 10px;
@@ -67,7 +67,7 @@ h2
         font-size: 16px;
     }
     div {
-        width: 50rem;	height: 34rem;
+        width: 50rem;	height: 40rem;
         background: #D3D3D3	;
         outline: 1px solid #000;
         border: 3px solid #000;
