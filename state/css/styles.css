@@ -39,7 +39,7 @@ h2
         font-size: 7px;
     }
     div {
-        width: 17rem;	height: 33rem;
+        width: 17rem;	height: 18rem;
         background: #D3D3D3;
 
         border: 3px solid #80c342;
@@ -55,7 +55,7 @@ h2
         font-size: 12px;
     }
     div {
-        width: 25rem;	height: 40rem;
+        width: 25rem;	height: 24rem;
         background: #D3D3D3;
         border: 3px solid #80c342;
         border-radius: 10px;
