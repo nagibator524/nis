@@ -34,12 +34,12 @@ h2
     border-radius: 10px; /* Устанавливаем радиус закругления */
     color: white
 }
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 500px)( {
     button {
-        font-size: 10px;
+        font-size: 8px;
     }
     div {
-        width: 21rem;	height: 33rem;
+        width: 17rem;	height: 23rem;
         background: #D3D3D3;
 
         border: 3px solid #80c342;
@@ -47,15 +47,15 @@ h2
 
    }
     .displayed {
-        margin-left: 4rem
+        margin-left: 3rem
     }
 }
-@media (min-width: 401px) and (max-width: 768px) {
+@media (min-width: 501px) and (max-width: 768px) {
     button {
         font-size: 12px;
     }
     div {
-        width: 25rem;	height: 40rem;
+        width: 25rem;	height: 34rem;
         background: #D3D3D3;
         border: 3px solid #80c342;
         border-radius: 10px;
