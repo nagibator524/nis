@@ -34,7 +34,7 @@ h2
     border-radius: 10px; /* Устанавливаем радиус закругления */
     color: white
 }
-@media (min-width: 400px) and (max-width: 500px)( {
+@media (max-width: 500px)( {
     button {
         font-size: 8px;
     }
