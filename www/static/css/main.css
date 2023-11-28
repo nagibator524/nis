@@ -1,0 +1,160 @@
+		body{
+			background-color: rgba(239,233,209,1)
+
+		}
+		h1{
+			font-family:Roboto;
+		}
+		.wrapper{
+
+		}
+		.parent {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			max-width: 100%;
+
+		}
+		
+		.topnav img{
+			width:70%;
+			height: auto;
+		}
+		.part1{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			 
+			width: 33%;
+		}
+		.part2{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			max-width: 5rem
+			
+			
+
+		}
+		.part3{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			 
+			width: 33%;
+			
+
+		}
+		.child{
+			
+			width:600px;
+			
+								}
+		.child h1,p{
+			text-align: center;
+		}
+
+		.topnav {
+			background-color: #b60b01;
+		    overflow: hidden;
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    
+
+		}
+
+
+		.topnav a {
+		    float: left;
+		    display: block;
+		    color: #f2f2f2;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		    font-size: 17px;
+		    font-family:Roboto;
+		}
+
+
+		.topnav a:hover {
+		    text-decoration: underline;
+		    color: black;
+		    font-family:Roboto;
+		}
+
+
+		.copyright p{
+			font-family: Roboto;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		.child{
+			border-right: rgba(195, 186, 174, 1);
+			border-left: rgba(195, 186, 174, 1);
+			font-family: Roboto;
+		}
+		.copyright{
+			width: 100%;
+			
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			border-bottom: 2px solid #b60b01; 
+		}
+
+		.daughter{
+			color: black
+			
+		}
+		@media screen and (max-width: 600px) {
+			.child{
+				max-width: 400px;
+				border-right: rgba(239,233,209,1);
+				border-left:rgba(239,233,209,1);
+			}
+			.topnav a{
+				float: left;
+			    display: block;
+			    color: #f2f2f2;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			    font-size: 12px;
+			    font-family:Roboto;
+			}
+			.topnav img{
+				width:50%;
+				height: auto;
+			}
+		}
+		@media screen and (max-width: 410px) {
+			.child{
+				max-width: 300px;
+				border-right: rgba(239,233,209,1);
+				border-left:rgba(239,233,209,1);
+			}
+		}
+		.socialmedia{
+			display: flex;
+			justify-content: flex-end;
+		}
+		.socialmedia button{
+			margin-top: 1%;
+			padding-top: 5px;
+			margin-right: 2%;
+			border:none;
+			background-color:rgba(239,233,209,1) ;
+			border-radius: 15px;
+		}
+		.socialmedia button:hover{
+			background-color:rgba(195, 186, 174, 1) ;
+		}
+		.daughter h2{
+			text-align: center;
+		}
+		.daughter li{
+			text-align: center;
+		}
